@@ -20,5 +20,10 @@ public class Point {
     public void setyAxis(int yAxis) {
         this.yAxis = yAxis;
     }
+
+    @Override
+    public String toString() {
+        return "Point [xAxis=" + xAxis + ", yAxis=" + yAxis + "]";
+    }
     
 }
