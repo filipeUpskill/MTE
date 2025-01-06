@@ -71,6 +71,10 @@ public double Lado4;
         return this.Lado1 + this.Lado2 + this.Lado3 + this.Lado4;
         }
 
+        public double area() {
+        return this.Lado1 * this.Lado2;
+        }
+
     public String toString() {
         return String.format("O perimetro do retângulo: %.2f", perimetro());
     }
