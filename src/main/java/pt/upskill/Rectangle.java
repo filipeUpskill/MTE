@@ -7,10 +7,6 @@ import static java.lang.Math.abs;
 public class Rectangle {
     public Point UpperLeft;
     public Point BottomRight;
-    public double Lado1;
-    public double Lado2;
-    public double Lado3;
-    public double Lado4;
 
     public Rectangle(Point upperLeft, Point bottomRight) {
         this.UpperLeft = upperLeft;
