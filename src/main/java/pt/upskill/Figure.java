@@ -1,6 +1,6 @@
 package pt.upskill;
 
-public class Figure {
+public abstract class Figure {
 
 private String color;
 
@@ -11,14 +11,14 @@ public Figure(String color) {
 public String getColor() {
     return color;
 }
+
 public void setColor(String color) {
     this.color = color;
 }
 
 
-public abstract area();
-
-    public abstract perimetro() {
-}
+public abstract double perimetro();
 
 }
+
+
