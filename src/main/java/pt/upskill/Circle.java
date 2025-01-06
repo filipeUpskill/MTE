@@ -36,4 +36,9 @@ public class Circle {
     public double area() {
         return Math.PI * this.Radius * this.Radius;
     }
+
+    @Override
+    public String toString(){
+        return String.format("Figura: Circulo.\nCentro: %s\n Raio: %0.02f", this.CenterPoint, this.Radius);
+    }
 }
