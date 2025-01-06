@@ -6,6 +6,7 @@ public class Circle {
 
     private Point CenterPoint;
     private double Radius;
+    private static final double PI = 3.14;
 
 
 public Circle(Point CenterPoint, double Radius) {
@@ -26,6 +27,6 @@ public void setRadius(double Radius) {
 }
 
     public double perimetro() {
-    return 6.28 * this.Radius;
+    return 2 * PI * this.Radius;
 }
 }
